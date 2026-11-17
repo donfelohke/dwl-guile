@@ -35,3 +35,8 @@ Some patches are already included in the main =dwl-guile= patch, namely
 - =smartborders=,
 - =vanitygaps=, and
 - =cyclelayout=.
+
+
+* WARENA technology-policy boundary (2026-11-17)
+
+This maintained fork is evaluated under WARENA's native-first, libre-first and local-first policy. JavaScript is prohibited as a language, runtime, framework or dependency; web technologies are excluded as WARENA/IKAI application/runtime architecture. This repository's Wayland implementation remains an explicitly secondary/experimental research track; WARENA's current default desktop research is X11-first (Guile-WM and Gershwin sessions). No deployment or installation is implied. See https://github.com/donfelohke/WARENA/blob/main/docs/TECHNOLOGY-CONSTITUTION-2026-11-17.md.
