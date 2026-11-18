@@ -1,7 +1,7 @@
 * =dwl-guile=
 =dwl-guile= allows you to configure and interact with [[https://github.com/djpohly/dwl][ =dwl= ]] using [[https://www.gnu.org/software/guile/][GNU Guile]] through a startup configuration file and/or a REPL.
 
-=dwl-guile= is based on the latest version of =dwl= (v0.4) and wlroots 0.16.x, and will be continuously rebased against new versions.
+The inherited upstream project documentation records a base of =dwl= v0.4 and wlroots 0.16.x. Treat these as the documented historical baseline, not as a verified statement of the current fork's exact source closure or the latest upstream versions. Before building or packaging, inspect this fork's current source, submodule/patch state and commit history; record the resolved =dwl=, wlroots and Guile revisions.
 
 ** Goal
 The main goal of =dwl-guile= is to serve as a minimal =dwm=-like Wayland compositor for those who use [[https://guix.gnu.org/][GNU Guix System]] --- a GNU/Linux distribution in which the user can customize and configure their entire system in GNU Guile.
@@ -40,3 +40,12 @@ Some patches are already included in the main =dwl-guile= patch, namely
 * WARENA technology-policy boundary (2026-11-17)
 
 This maintained fork is evaluated under WARENA's native-first, libre-first and local-first policy. JavaScript is prohibited as a language, runtime, framework or dependency; web technologies are excluded as WARENA/IKAI application/runtime architecture. This repository's Wayland implementation remains an explicitly secondary/experimental research track; WARENA's current default desktop research is X11-first (Guile-WM and Gershwin sessions). No deployment or installation is implied. See https://github.com/donfelohke/WARENA/blob/main/docs/TECHNOLOGY-CONSTITUTION-2026-11-17.md.
+
+
+* WARENA fork and maturity boundary (2026-11-18)
+
+This repository is a WARENA-maintained fork of the upstream =engstrand-config/dwl-guile= project. It preserves upstream history and licence obligations; it is not an independent claim of upstream ownership. WARENA owns the fork's maintenance decisions and the configuration policy in [[https://github.com/donfelohke/WARENA][donfelohke/WARENA]].
+
+The fork remains a **secondary / experimental Wayland research track** under WARENA's current X11-first desktop policy. Sway is a comparison/recovery baseline; intended X11 session tracks are Gershwin and Guile-WM / WM-NG. This policy does not imply that this fork has been built, packaged for Guix 1.5.0, installed or used in a deployed session.
+
+Before a compatibility or release claim, record exact upstream/fork commits, compiler and Guile versions, wlroots/Wayland ABI, package inputs, build logs, session startup, input/output behaviour, crash recovery and rollback. See [[https://github.com/donfelohke/WARENA/blob/main/docs/TECHNOLOGY-CONSTITUTION-2026-11-17.md][WARENA Technology Constitution]] and [[https://github.com/donfelohke/WARENA/blob/main/docs/STACK-REGISTER.md][WARENA Stack Register]].
