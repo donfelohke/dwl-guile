@@ -49,3 +49,8 @@ This repository is a WARENA-maintained fork of the upstream =engstrand-config/dw
 The fork remains a **secondary / experimental Wayland research track** under WARENA's current X11-first desktop policy. Sway is a comparison/recovery baseline; intended X11 session tracks are Gershwin and Guile-WM / WM-NG. This policy does not imply that this fork has been built, packaged for Guix 1.5.0, installed or used in a deployed session.
 
 Before a compatibility or release claim, record exact upstream/fork commits, compiler and Guile versions, wlroots/Wayland ABI, package inputs, build logs, session startup, input/output behaviour, crash recovery and rollback. See [[https://github.com/donfelohke/WARENA/blob/main/docs/TECHNOLOGY-CONSTITUTION-2026-11-17.md][WARENA Technology Constitution]] and [[https://github.com/donfelohke/WARENA/blob/main/docs/STACK-REGISTER.md][WARENA Stack Register]].
+
+
+* WARENA architecture boundary — 2026-11-20
+
+This fork remains a Wayland/dwl-guile supporting research component. WARENA's conventional desktop policy is X11-first; Wayland and dwl-guile remain secondary/experimental. Spatial computing, immersive XR and opt-in AI are separate optional layers and are not responsibilities of this compositor or Guix Home service. See [[https://github.com/donfelohke/WARENA/blob/main/docs/SPATIAL-COMPUTING-XR-AI-ARCHITECTURE-2026-11-20.md][WARENA spatial/XR/opt-in AI architecture]] and [[https://github.com/donfelohke/WARENA/blob/main/docs/DESKTOP-ARCHITECTURE.md][WARENA desktop architecture]]. No installed session, package build, XR integration or deployment is implied.
