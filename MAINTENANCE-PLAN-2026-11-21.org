@@ -24,3 +24,15 @@ WARENA's conventional desktop research is X11-first. Wayland/dwl-guile remains s
 3. Build reproducibly against a pinned Guix environment.
 4. Record runtime test evidence and known failures.
 5. Reconcile maintenance changes without deleting unreviewed branches or history.
+
+* Qualification evidence record
+For each qualification attempt, record:
+- Date, operator, host, clean/dirty build environment and Guix revision.
+- Fork commit SHA, upstream base SHA, local patch list and submodule state.
+- Exact Guile, compiler, dwl, wlroots, Wayland protocol and build-input revisions.
+- Exact build command, exit status, complete log location and output hash.
+- Runtime environment, display/input devices, session startup and observed behaviour.
+- Tests for configuration/REPL, focus, layout, input/output, crash recovery and rollback.
+- Known failures, unsupported paths, reviewer and disposition.
+
+A build result is not a runtime result. A successful local test is not a release or deployed-session claim. Do not update compatibility statements without this evidence.
