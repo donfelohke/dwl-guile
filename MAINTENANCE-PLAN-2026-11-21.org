@@ -1,0 +1,26 @@
+* WARENA fork maintenance plan — 2026-11-21
+
+**Role:** Maintained fork of upstream `engstrand-config/dwl-guile`; secondary/experimental Wayland research component.
+
+* Preservation and attribution
+- Preserve upstream history, notices, licensing and author attribution.
+- Do not imply ownership of upstream work or silently replace its baseline.
+- Keep WARENA configuration policy in the WARENA repository.
+
+* Compatibility and reproducibility
+- Record exact fork and upstream commit SHAs before each compatibility assessment.
+- Resolve and record dwl, wlroots, Wayland protocol, Guile, compiler and build-system versions.
+- Validate Guix package inputs and build logs in a clean environment.
+- Separate compile success from runtime session validation.
+- Test input/output, focus, layout, REPL/configuration, crash recovery and rollback before claiming usability.
+- Treat inherited README version references as historical until verified against current source.
+
+* Policy boundary
+WARENA's conventional desktop research is X11-first. Wayland/dwl-guile remains secondary and experimental; this repository does not establish a deployed session. No JavaScript runtime or web application dependency is introduced.
+
+* Immediate sequence
+1. Compare fork history with upstream and identify unique local patches.
+2. Audit patch applicability and source provenance.
+3. Build reproducibly against a pinned Guix environment.
+4. Record runtime test evidence and known failures.
+5. Reconcile maintenance changes without deleting unreviewed branches or history.
