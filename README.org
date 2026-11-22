@@ -1,4 +1,7 @@
 * =dwl-guile=
+
+See [[file:ECOSYSTEM-UPDATE-2026-11-22.org][the 2026-11-22 ecosystem and fork-maintenance update]] for current ownership, provenance and validation boundaries.
+
 =dwl-guile= allows you to configure and interact with [[https://github.com/djpohly/dwl][ =dwl= ]] using [[https://www.gnu.org/software/guile/][GNU Guile]] through a startup configuration file and/or a REPL.
 
 The inherited upstream project documentation records a base of =dwl= v0.4 and wlroots 0.16.x. Treat these as the documented historical baseline, not as a verified statement of the current fork's exact source closure or the latest upstream versions. Before building or packaging, inspect this fork's current source, submodule/patch state and commit history; record the resolved =dwl=, wlroots and Guile revisions.
