@@ -36,3 +36,8 @@ For each qualification attempt, record:
 - Known failures, unsupported paths, reviewer and disposition.
 
 A build result is not a runtime result. A successful local test is not a release or deployed-session claim. Do not update compatibility statements without this evidence.
+
+
+* Execution addendum — 2026-11-22
+
+Added a dated WARENA fork-maintenance record and README pointer. The upstream fork relationship and inherited attribution remain explicit. No compositor source, protocol, patch or build configuration was changed. No build or nested-session test is claimed; source changes remain gated on upstream-delta review and a reproducible Guix test environment.
