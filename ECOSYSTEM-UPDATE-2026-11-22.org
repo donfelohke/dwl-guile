@@ -1,0 +1,19 @@
+#+title: WARENA fork maintenance update — 2026-11-22
+#+startup: overview
+
+* Repository role
+This repository is a WARENA-maintained fork of [[https://github.com/engstrand-config/dwl-guile][engstrand-config/dwl-guile]]. Preserve upstream authorship, licence notices, history and attribution. The fork is not an original WARENA invention and is not evidence of a deployed compositor.
+
+* Architecture boundary
+The WARENA desktop decision remains X11-first. X.Org is the initial compatibility baseline; XLibre is a compatibility experiment. This dwl-guile / Wayland track is secondary and experimental, not the default desktop direction.
+
+* Maintenance gates
+- Record upstream URL, commit, local delta and reason for every patch.
+- Keep protocol XML and generated bindings aligned.
+- Build only in a declared Guix environment; record exact channel, package revisions and logs.
+- Test configuration loading, Scheme evaluation, IPC, input, output, focus and recovery in a disposable nested session before any host session.
+- Do not claim build, installation or runtime success without reproducible evidence.
+- Review security and licensing implications before carrying patches forward.
+
+* Reuse policy
+Prefer upstream fixes where suitable; keep the fork delta small and attributable. Never overwrite upstream provenance or imply ownership of inherited code.
