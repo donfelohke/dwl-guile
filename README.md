@@ -19,6 +19,29 @@ This is a supporting technical project in the WARENA engineering ecosystem. It i
 **WARENA** — Libre technology · Infrastructure · Systems engineering · Digital sovereignty  
 **GENJE** — Music · Movement · Performance · Creative expression
 
+## Build prerequisites and local build
+
+The checked-in Makefile discovers development dependencies through `pkg-config` and invokes `wayland-scanner` for protocol sources. The current Makefile package modules are:
+
+- `wlroots`
+- `wayland-server` and `wayland-client`
+- `xkbcommon`
+- `libinput`
+- `guile-3.0`
+- `pixman-1`
+
+A working build environment also needs a C compiler, GNU Make, `pkg-config`, Wayland protocols data and the `wayland-scanner` executable. Optional XWayland support is disabled in the checked-in `config.mk`; enabling it changes the dependency set. Resolve the exact compatible versions against the source revision and the target distribution rather than assuming that any current wlroots release is interchangeable.
+
+From a checkout, inspect the configuration and attempt a local build:
+
+```sh
+make
+```
+
+The default target is `dwl`. The Makefile does not currently define a test target, so a successful compile is not a runtime or compositor-session validation. Record the distribution, compiler, Guile and wlroots versions, complete build output and any patches when reporting a build result.
+
+The Makefile's `install` target changes the built binary's name before installing it under the configured prefix. Review that target and the destination before using it; the command above only builds and does not install.
+
 ## Scope and evidence
 
 This README is an orientation to the repository identity and project purpose. Consult the source tree, existing documentation and LICENSE for implementation details, build instructions, supported configurations and contribution requirements. Do not infer release status, compatibility or deployment from the repository description alone.
