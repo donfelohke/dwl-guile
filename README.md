@@ -56,7 +56,7 @@ This README is an orientation to the repository identity and project purpose. Co
 
 ## Ecosystem alignment · 2026-11-24
 
-See [the alignment note](doc/ECOSYSTEM-ALIGNMENT-2026-11-24.md) for this repository's role, cross-project boundaries and documentation standards.
+See [the alignment note](docs/ECOSYSTEM-ALIGNMENT-2026-11-24.md) for this repository's role, cross-project boundaries and documentation standards.
 
 
 ## Shared identity alignment · 26 November 2026
