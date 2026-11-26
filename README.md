@@ -9,7 +9,7 @@ This is a supporting technical project in the WARENA engineering ecosystem. It i
 ## Identity relationship
 
 - **GRIT → WARENA:** libre-first systems engineering and infrastructure.
-- **GLORY → DON FELOH:** human authorship and creative agency.
+- **GLORY → GENJE / GENJENESS:** creative greatness, Genge-rooted sound, livecoding, movement, choreography and authored expression; FELOH remains the human author.
 - **GENJE:** independent embodied creative practice; its relationship to WARENA is expressed by **GENJE ZA WARENA**.
 - **GRACE → NAKEBUSEN:** distinct beauty and loc-care practice; **ONLY NAKEBUSEN TRANSACTS**.
 
@@ -18,6 +18,10 @@ This is a supporting technical project in the WARENA engineering ecosystem. It i
 **IKAI** — Reflective computing · Perception · Memory · Human experience  
 **WARENA** — Libre technology · Infrastructure · Systems engineering · Digital sovereignty  
 **GENJE** — Music · Movement · Performance · Creative expression
+
+## Current identity clarification · 26 November 2026
+
+The current pillar mapping is **GRACE → NAKEBUSEN; GRIT → WARENA; GLORY → GENJE / GENJENESS**. FELOH remains the human author and creative/technical decision-maker. This repository remains a supporting WARENA engineering project, not a separate practice or commercial interface. See the [shared identity clarification](https://github.com/donfelohke/feloh-corpus/blob/main/docs/IDENTITY-CANONICAL-CLARIFICATION-2026-11-26.md).
 
 ## Build prerequisites and local build
 
@@ -41,6 +45,10 @@ make
 The default target is `dwl`. The Makefile does not currently define a test target, so a successful compile is not a runtime or compositor-session validation. Record the distribution, compiler, Guile and wlroots versions, complete build output and any patches when reporting a build result.
 
 The Makefile's `install` target changes the built binary's name before installing it under the configured prefix. Review that target and the destination before using it; the command above only builds and does not install.
+
+## Current identity clarification · 26 November 2026
+
+The current pillar mapping is **GRACE → NAKEBUSEN; GRIT → WARENA; GLORY → GENJE / GENJENESS**. FELOH remains the human author and creative/technical decision-maker. This repository remains a supporting WARENA integration, not a separate practice or commercial interface. See the [shared identity clarification](https://github.com/donfelohke/feloh-corpus/blob/main/docs/IDENTITY-CANONICAL-CLARIFICATION-2026-11-26.md).
 
 ## Scope and evidence
 
