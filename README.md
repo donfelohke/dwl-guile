@@ -57,3 +57,8 @@ This README is an orientation to the repository identity and project purpose. Co
 ## Ecosystem alignment · 2026-11-24
 
 See [the alignment note](doc/ECOSYSTEM-ALIGNMENT-2026-11-24.md) for this repository's role, cross-project boundaries and documentation standards.
+
+
+## Shared identity alignment · 26 November 2026
+
+This repository is a supporting WARENA engineering project. **GRIT → WARENA** is the current pillar mapping; FELOH remains the human author, GRACE → NAKEBUSEN and GLORY → GENJE / GENJENESS. This repository is not a separate brand or commercial service. See the [current shared identity clarification](https://github.com/donfelohke/feloh-corpus/blob/main/docs/IDENTITY-CANONICAL-CLARIFICATION-2026-11-26.md). **ONLY NAKEBUSEN TRANSACTS.**
