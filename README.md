@@ -68,6 +68,5 @@ WARENA is libre-first, local-first and human-controlled. GNU is foundational but
 
 - [Documentation index](docs/README.md).
 - [GNU Guix Home integration](https://github.com/donfelohke/home-service-dwl-guile).
-- [Contributing](CONTRIBUTING.md), where present in the repository.
 
 Preserve upstream history and document each material local change. Prefer a small, reviewable patch over a wholesale replacement of upstream code.
