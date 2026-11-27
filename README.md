@@ -46,10 +46,6 @@ The default target is `dwl`. The Makefile does not currently define a test targe
 
 The Makefile's `install` target changes the built binary's name before installing it under the configured prefix. Review that target and the destination before using it; the command above only builds and does not install.
 
-## Current identity clarification · 26 November 2026
-
-The current pillar mapping is **GRACE → NAKEBUSEN; GRIT → WARENA; GLORY → GENJE / GENJENESS**. FELOH remains the human author and creative/technical decision-maker. This repository remains a supporting WARENA integration, not a separate practice or commercial interface. See the [shared identity clarification](https://github.com/donfelohke/feloh-corpus/blob/main/docs/IDENTITY-CANONICAL-CLARIFICATION-2026-11-26.md).
-
 ## Scope and evidence
 
 This README is an orientation to the repository identity and project purpose. Consult the source tree, existing documentation and LICENSE for implementation details, build instructions, supported configurations and contribution requirements. Do not infer release status, compatibility or deployment from the repository description alone.
@@ -65,11 +61,6 @@ This README is an orientation to the repository identity and project purpose. Co
 ## Ecosystem alignment · 2026-11-24
 
 See [the alignment note](docs/ECOSYSTEM-ALIGNMENT-2026-11-24.md) for this repository's role, cross-project boundaries and documentation standards.
-
-
-## Shared identity alignment · 26 November 2026
-
-This repository is a supporting WARENA engineering project. **GRIT → WARENA** is the current pillar mapping; FELOH remains the human author, GRACE → NAKEBUSEN and GLORY → GENJE / GENJENESS. This repository is not a separate brand or commercial service. See the [current shared identity clarification](https://github.com/donfelohke/feloh-corpus/blob/main/docs/IDENTITY-CANONICAL-CLARIFICATION-2026-11-26.md). **ONLY NAKEBUSEN TRANSACTS.**
 
 
 ## Documentation index
