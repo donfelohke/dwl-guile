@@ -60,9 +60,9 @@ This README is an orientation to the repository identity and project purpose. Co
 
 ## Ecosystem alignment · 2026-11-24
 
-See [the alignment note](docs/ECOSYSTEM-ALIGNMENT-2026-11-24.md) for this repository's role, cross-project boundaries and documentation standards.
+See the [shared ecosystem alignment note](https://github.com/donfelohke/feloh-corpus/blob/main/docs/ECOSYSTEM-ALIGNMENT-2026-11-24.md) for cross-project boundaries and the [repository provenance note](docs/ASSET-AND-DOCUMENTATION-PROVENANCE-2026-11-24.md) for upstream and documentation attribution.
 
 
 ## Documentation index
 
-See [docs/README.md](docs/README.md) for the current repository documentation map and source-of-record links.
+See the [repository provenance note](docs/ASSET-AND-DOCUMENTATION-PROVENANCE-2026-11-24.md) and the [shared ecosystem alignment note](https://github.com/donfelohke/feloh-corpus/blob/main/docs/ECOSYSTEM-ALIGNMENT-2026-11-24.md) for documentation and source-of-record links.
