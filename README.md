@@ -73,4 +73,4 @@ Preserve upstream history and document each material local change. Prefer a smal
 
 ## Canonical alignment · 27 November 2026
 
-See [WARENA ecosystem alignment](docs/FELOH-WARENA-ECOSYSTEM-ALIGNMENT-2026-11-27.md) for the dated cross-project definitions, evidence boundaries and repository-specific responsibilities.
+See [dwl-guile ecosystem alignment](doc/ECOSYSTEM-ALIGNMENT-2026-11-24.md) for the dated cross-project definitions, evidence boundaries and repository-specific responsibilities.
