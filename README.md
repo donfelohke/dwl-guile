@@ -70,3 +70,7 @@ WARENA is libre-first, local-first and human-controlled. GNU is foundational but
 - [GNU Guix Home integration](https://github.com/donfelohke/home-service-dwl-guile).
 
 Preserve upstream history and document each material local change. Prefer a small, reviewable patch over a wholesale replacement of upstream code.
+
+## Canonical alignment · 27 November 2026
+
+See [WARENA ecosystem alignment](docs/FELOH-WARENA-ECOSYSTEM-ALIGNMENT-2026-11-27.md) for the dated cross-project definitions, evidence boundaries and repository-specific responsibilities.
